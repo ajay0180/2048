@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ajayjangra/Documents/projects/2048/main'
+relocations:
+  - { offset: 0x5413, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x17929, symBinAddr: 0x100008020, symSize: 0x0 }
+  - { offset: 0x5509, size: 0x8, addend: 0x0, symName: _board, symObjAddr: 0x1792C, symBinAddr: 0x100008024, symSize: 0x0 }
+  - { offset: 0x552B, size: 0x8, addend: 0x0, symName: _dirLine, symObjAddr: 0x5C0, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x5541, size: 0x8, addend: 0x0, symName: _dirColumn, symObjAddr: 0x5D0, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offset: 0x5718, size: 0x8, addend: 0x0, symName: __ZNSt4pairIiiEC1IRiS2_Lb1EEEOT_OT0_, symObjAddr: 0x578, symBinAddr: 0x100003C20, symSize: 0x48 }
+  - { offset: 0x5760, size: 0x8, addend: 0x0, symName: __ZSt7forwardIRiEOT_RNSt16remove_referenceIS1_E4typeE, symObjAddr: 0x564, symBinAddr: 0x100003C0C, symSize: 0x14 }
+  - { offset: 0x5790, size: 0x8, addend: 0x0, symName: __ZSt9make_pairIRiS0_ESt4pairINSt25__strip_reference_wrapperINSt5decayIT_E4typeEE6__typeENS2_INS3_IT0_E4typeEE6__typeEEOS4_OS9_, symObjAddr: 0x518, symBinAddr: 0x100003BC0, symSize: 0x4C }
+  - { offset: 0x57E1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x464, symBinAddr: 0x100003B0C, symSize: 0xB4 }
+  - { offset: 0x5847, size: 0x8, addend: 0x0, symName: __Z9applyMovei, symObjAddr: 0x2BC, symBinAddr: 0x100003964, symSize: 0x1A8 }
+  - { offset: 0x5936, size: 0x8, addend: 0x0, symName: __Z9canDoMoveiiii, symObjAddr: 0x224, symBinAddr: 0x1000038CC, symSize: 0x98 }
+  - { offset: 0x5991, size: 0x8, addend: 0x0, symName: __Z7printUIv, symObjAddr: 0x12C, symBinAddr: 0x1000037D4, symSize: 0xF8 }
+  - { offset: 0x59F2, size: 0x8, addend: 0x0, symName: __Z7newGamev, symObjAddr: 0x8C, symBinAddr: 0x100003734, symSize: 0xA0 }
+  - { offset: 0x5A66, size: 0x8, addend: 0x0, symName: __Z26generateUnOccupiedPositionv, symObjAddr: 0x0, symBinAddr: 0x1000036A8, symSize: 0x8C }
+...
